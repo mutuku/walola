@@ -2,7 +2,7 @@
 Free Boostrap 3 responsive two page restaurant theme with php form processing script
 
 #demo
-http:www.agile.co.ke/walola
+http://www.agile.co.ke/walola
 
 #about
 Walola is a responsive mobile first theme based on the popular boostrap framework.  It comes with one page landing layout , one inner page layout, and a form processing file
