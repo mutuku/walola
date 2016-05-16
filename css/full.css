@@ -1,0 +1,237 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300italic,300,100italic,100,400italic,700,700italic,900,900italic&subset=latin,latin-ext);
+
+body {
+    font-family : "Helvetica Neue",Helvetica,Arial,sans-serif
+    font-size: 14px
+
+    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.full {
+   background: url('../images/food-1.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+a {
+	
+	color:#feca0f;
+}
+
+.nav-tabs>li>a {
+	border-radius: 0;
+}
+.navbar {
+	border-bottom:10px solid #FECA0F;
+}
+
+.navbar-fixed-top {
+	
+}
+
+
+/*logo*/
+
+
+.navbar-default .navbar-brand {
+	font-family: 'Lato', sans-serif;
+	font-weight:600;
+	font-size:36px;
+	letter-spacing:1px;
+	color:#666;
+	
+}
+
+/*menu*/
+
+.navbar-nav {
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	position: relative;
+	right:0;
+	border: none;
+	margin-bottom:-50px;
+}
+
+
+.navbar-default .navbar-nav > li > a{
+	color:#FFFFFF;
+	height:100px;
+	min-width: 110px;
+	font-weight:600;
+	letter-spacing:1px;
+	text-align:center;
+	padding-top:66px;
+}
+
+.navbar-default .navbar-nav > li:hover{
+	background:#F8F8F8;
+}
+
+
+.slogan {
+	position: relative;
+    top: 387px;
+    color:#ffffff;
+    text-shadow: 0px 0px 1px #555;
+    
+ }
+
+.about{
+	background:#FECA0F;
+}
+
+.book {
+	background:#EB0A08;
+}
+.location {
+	background:#E9E500;
+	
+}
+
+.services {
+	background:#F6F19D;
+	
+}
+.jumbotron {
+	height:600px;
+	margin-bottom:0;
+	
+}
+
+.row-1 {
+	background:url("../images/sos.png");
+}
+.row-2 {
+	background:#AAAAAA;
+	background:url("../images/restaurant-person-people-hand2.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.row-3 {
+   background: url('../images/food-4.jpg ') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.red {
+	/*background: #A92733;*/
+	
+	
+}
+
+.book-box {
+	/*background:#EB0A08;*/
+	/*margin-top:70px;*/
+	color:#FFFFFF;
+}
+
+
+.cont {
+	padding-top: 100px;
+	padding-bottom:100px;
+}
+
+.row-3 {
+	padding-top:130px;
+	padding-bottom:130px;	
+}
+
+
+
+.box .inner {
+	background-color:#eee;
+	background:url("../images/sos.png");
+	padding:15px;
+	margin: 15px;
+}
+
+.box p, .box h2 {
+	text-align:left;
+}
+
+/*form*/
+.form-control {
+  border-color: #ae750d;
+  box-shadow: none;
+  outline: 0 none;
+  border-radius: 0;
+  color: #797979;
+  
+  width:100%;
+}
+
+input {
+  height: 44px;
+}
+.help-block {
+	font-size:10px;
+	color:#FFFFFF;
+}
+
+.btn {
+  background-color: #373737;
+  color: #f7ab24;
+  border: none;
+  font-size:14px;
+  padding: 6px 42px; 
+  margin-top: 10px;
+  border-radius:none;
+  border-radius:0px;
+  text-transform:uppercase;
+}
+
+#magic {
+	display:none;
+}
+
+/*map*/
+.container-fluid.row-4 {
+	padding:0;
+}
+
+#map-container { height: 400px }
+
+
+@media all and (max-width: 991px) {
+		#map-outer  { height: 650px }
+}
+
+
+/*innerpage page*/
+.innerpage .full {
+   background: url('../images/food-4.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.innerpage .jumbotron {
+	height:400px;
+}
+
+.innerpage .slogan {
+    top: 206px;
+}
+
+/*center nav-pils*/
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
